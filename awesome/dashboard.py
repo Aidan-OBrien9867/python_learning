@@ -1,12 +1,12 @@
-from awesome import get_hello_world_string
+from awesome import get_codeistrash_string
 import streamlit as st
 
 import pandas as pd
 
 
 
-hello_world = get_hello_world_string()
-st.write(hello_world)
+codeistrash = get_codeistrash_string()
+st.write(codeistrash)
 df = pd.DataFrame({
     'foo': [0,1],
     'bar': [3,5]

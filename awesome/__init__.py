@@ -1,2 +1,2 @@
-def get_hello_world_string():
-    return 'Hello World!'
+def get_codeistrash_string():
+    return 'codeistrash!'
